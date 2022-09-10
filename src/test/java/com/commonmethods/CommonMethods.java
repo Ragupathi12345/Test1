@@ -1,5 +1,6 @@
 package com.commonmethods;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -41,6 +42,14 @@ public class CommonMethods  {
 	public static String getText(WebElement ele) {
 		String text = ele.getText();
 		return text;
+	
+
+	}
+	public static void disMiss() {
+		
+		
+		Alert a=driver.switchTo().alert();
+		a.dismiss();
 	
 
 	}

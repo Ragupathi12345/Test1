@@ -10,18 +10,18 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features = "src\\test\\resources\\Feature",glue = "com.step",dryRun = false,monochrome = true,tags = "@smoke",
-plugin = {"json:Report\\output.json","rerun:Rerun\\rerun.txt"})
+plugin = {"json:Report\\output.json"})
 
 public class RunnerClass {
 	
-	  @AfterClass
+	 /* @AfterClass
 	 
 	 public static void jvmReport2() {
 	 
-	 ReportClass.jvmReport1("Report\\\\output.json");
+	 ReportClass.jvmReport1("Report\\\\output.json");*/
 	 
 	 
 	  
 	 }
 	 
-}
+
