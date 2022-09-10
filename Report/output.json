@@ -1,0 +1,76 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2022-09-10T07:07:55.139Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2222400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.launch1()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "TO vadidate",
+        "description": "",
+        "id": "to-validate;to-vadidate",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9247316500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "launch the URL FB",
+            "match": {
+              "location": "StepDef.launch_the_URL_FB()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 565856700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "go to login",
+            "match": {
+              "location": "StepDef.go_to_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 296919700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "click login",
+            "match": {
+              "location": "StepDef.click_login()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "To validate",
+    "description": "",
+    "id": "to-validate",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/test.feature",
+    "tags": []
+  }
+]
